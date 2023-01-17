@@ -1,0 +1,29 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/lime"))()
+
+local w = Library:Window("K HUB")
+
+w:Button("Interact", function()
+
+   for i,v in pairs(game:GetService("Workspace"):GetDescendants())do
+
+    if v.Name == "ProximityPrompt" then
+
+        fireproximityprompt(v,20)
+
+    end
+
+end
+
+end)
+
+w:Button("TPไปหาเงิน", function()
+
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-358.3804626464844, 89.9804916381836, 524.1837768554688)
+
+end)
+
+w:Button("TPไปที่หลบ", function()
+
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-373.6919250488281, 71.65831756591797, 491.4676513671875)
+
+end)
