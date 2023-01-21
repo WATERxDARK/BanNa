@@ -24,9 +24,9 @@ end)
 
 w:Button("TPไปที่หลบ", function()
 
-   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-373.6919250488281, 71.65831756591797, 491.4676513671875)
-
-end)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-372.88763427734375, 71.75595092773438, 492.67236328125)
+...
+จบ)
 
 w:Button("InfiniteJump", function()
 
