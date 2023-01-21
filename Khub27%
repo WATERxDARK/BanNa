@@ -26,8 +26,8 @@ w:Button("TPไปที่หลบ", function()
 
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-372.88763427734375, 71.75595092773438, 492.67236328125)
 ...
-จบ)
-
+จบ
+...
 w:Button("InfiniteJump", function()
 
    local InfiniteJumpEnabled = true
